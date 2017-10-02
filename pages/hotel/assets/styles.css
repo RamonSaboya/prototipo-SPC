@@ -201,3 +201,28 @@ img {
     width: 50%;
     height: auto;
 }
+
+#comments {
+  order: 2;
+  flex: 0 0 30%;
+  display: flex;
+}
+
+.scrollable-area {
+  overflow-y: scroll;
+  background-color: #fff;
+  height: 100%;
+  text-align: center;
+}
+
+.scrollable-area ul {
+  padding: 0px;
+}
+
+.scrollable-area li {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: thin solid black;
+  list-style-type: none;
+  font-size: 17px;
+}
