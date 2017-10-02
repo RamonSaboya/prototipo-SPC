@@ -114,14 +114,13 @@ img {
 
 #comments {
   order: 2;
-  flex: 0 0 30%;
   display: flex;
+  flex: 0 0 90%;
 }
 
 .scrollable-area {
   overflow-y: scroll;
   background-color: #fff;
-  height: 100%;
   text-align: center;
 }
 
