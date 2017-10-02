@@ -91,8 +91,20 @@ body {
     justify-content: flex-end;
 }
 
-#comments {
+#secret {
   order: 3;
+  flex: 0 0 auto;
+
+  margin: 30px 0 0 0;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#comments {
+  order: 4;
   flex: 0 0 auto;
 
   margin: 30px 0;
@@ -137,6 +149,11 @@ body {
 
 .info-field:last-child {
   margin-bottom: 0;
+}
+
+#button {
+  order: 1;
+  flex: 0 0 auto;
 }
 
 .comment {
@@ -248,10 +265,16 @@ img {
     height: auto;
 }
 
-#comments {
-  order: 2;
-  display: flex;
-  flex: 0 0 90%;
+.sauce {
+  width: 100px;
+  height: 20px;
+  margin: 0;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  background-color: #4286f4;
+  cursor: pointer;
 }
 
 .scrollable-area {
