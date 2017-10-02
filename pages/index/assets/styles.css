@@ -134,6 +134,23 @@ input {
   width: 20%;
 }
 
+#button {
+  order: 2;
+  margin-top: 10px;
+}
+
+#search-button {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+  font-size: 100%;
+  background-color: #9eaabf;
+  color: black;
+
+}
+
 img {
     width: 100%;
     height: auto;
