@@ -12,15 +12,8 @@ body {
     padding: 0;
     border: 0;
     margin: 0;
-<<<<<<< HEAD
-    
     background-color: #eee;
-    
-=======
 
-    background-color: #ddd;
-
->>>>>>> 1c4c55d550f65abd38f3b40b8f1addbf9aedca8a
     display: flex;
     flex-flow: column nowrap;
 }
