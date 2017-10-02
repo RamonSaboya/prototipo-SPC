@@ -1,32 +1,32 @@
 body {
     position: absolute;
-    
+
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    
+
     height: 100%;
     width: 100%;
-    
+
     padding: 0;
     border: 0;
     margin: 0;
-    
+
     background-color: #eee;
-    
+
     display: flex;
     flex-flow: column nowrap;
 }
 
-/*div {
+div {
     outline: 1px solid black;
-}*/
+}
 
 #header {
     order: 1;
     flex: 0 0 auto;
-    
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
@@ -35,14 +35,14 @@ body {
 #content {
     order: 2;
     flex: 0 0 auto;
-    
+
     width: 1100px;
     min-height: 90%;
-    
+
     margin: auto;
-    
+
     border-top: 2px solid #ddd;
-    
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -51,7 +51,7 @@ body {
 #user {
     order: 1;
     flex: 0 0 auto;
-    
+
     display: flex;
     flex-flow: row nowrap;
 }
@@ -59,20 +59,20 @@ body {
 .header-item {
     order: 1;
     flex: 0 0 auto;
-    
+
     width: 50px;
-    
+
     text-align: center;
 }
 
 #filters {
     order: 1;
     flex: 1;
-    
+
     min-width: 100px;
-    
+
     padding: 25px 25px;
-    
+
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
@@ -82,11 +82,11 @@ body {
 #list {
     order: 2;
     flex: 0 0 70%;
-    
+
     padding: 25px 50px;
-    
+
     border-left: 2px solid #ddd;
-    
+
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -95,12 +95,12 @@ body {
 .filter {
     order: 1;
     flex: 0 0 100px;
-    
+
     min-width: 200px;
     height: 200px;
-    
+
     margin-bottom: 20px;
-    
+
     text-align: center;
 }
 
@@ -109,14 +109,14 @@ body {
     flex: 0 0 auto;
 
     min-width: 500px;
-    height: 175px;
-    
+    height: 260px;
+
     margin-bottom: 20px;
-    
+
     background-color: #fff;
-    
+
     box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-    
+
     display: flex;
     flex-flow: column nowrap;
 }
@@ -128,7 +128,7 @@ body {
 .hotel-info {
     order: 1;
     flex: 1;
-    
+
     display: flex;
     flex-flow: row nowrap;
 }
@@ -136,8 +136,8 @@ body {
 .hotel-feedback {
     order: 2;
     flex: 1;
-    
-    background-color: #fff; 
+
+    background-color: #fff;
     background-image: linear-gradient(#eee .1em, transparent .1em);
     background-size: 100% 1.2em;
 }
@@ -145,16 +145,16 @@ body {
 .hotel-picture {
     order: 1;
     flex: 0 0 200px;
-    
+
     overflow: hidden;
 }
 
 .hotel-detail {
     order: 2;
     flex: 1;
-    
+
     background-color: #fee;
-    
+
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
@@ -163,9 +163,9 @@ body {
 .hotel-name {
     order: 1;
     flex: 0 0 auto;
-    
+
     padding: 5px 0;
-    
+
     text-align: center;
     font-size: 20px;
 }
@@ -173,22 +173,41 @@ body {
 .hotel-fields {
     order: 2;
     flex: 1;
-    
+
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
 }
 
+.hotel-data {
+  order: 3;
+  flex: 0 0 auto;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
 .hotel-field {
     order: 1;
     flex: 1;
-    
+
     min-width: 175px;
-    
+
     padding: 5px;
-    
+
     text-align: center;
+}
+
+.hotel-review {
+  order: 1;
+  flex: 0 0 auto;
+}
+
+.hotel-match {
+  order: 2;
+  flex: 0 0 auto;
 }
 
 img {
