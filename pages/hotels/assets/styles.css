@@ -41,8 +41,6 @@ body {
 
     margin: auto;
 
-    border-top: 2px solid #ddd;
-
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -81,11 +79,9 @@ body {
 
 #list {
     order: 2;
-    flex: 0 0 70%;
+    flex: 0 0 100%;
 
     padding: 25px 50px;
-
-    border-left: 2px solid #ddd;
 
     display: flex;
     flex-flow: column nowrap;

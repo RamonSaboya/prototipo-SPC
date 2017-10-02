@@ -155,7 +155,15 @@ body {
 }
 
 .comment:last-child {
+  display: block;
+
   margin-bottom: 0;
+
+  padding: 10px;
+
+  text-align: center;
+  font-size: 13px;
+  color: #666;
 }
 
 .comment-profile {
@@ -190,6 +198,8 @@ body {
 .comment-profile-item:last-child {
   margin-top: 20px;
 
+  padding-left: 10px;
+
   font-size: 12px;
 }
 
@@ -200,7 +210,7 @@ body {
   padding: 5px;
   padding-left: 10px;
 
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .comment-content {
@@ -208,6 +218,24 @@ body {
   flex: 1;
 
   padding: 10px;
+  padding-right: 30px;
+}
+
+.comment-show {
+  order: 3;
+  flex: 0 0 auto;
+
+  padding: 5px 10px;
+
+  margin: 5px 0;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+b {
+  font-size: 15px;
 }
 
 img {
