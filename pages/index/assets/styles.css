@@ -160,3 +160,35 @@ img {
     width: 50%;
     height: auto;
 }
+
+
+
+@media (max-width: 800px) {
+  #content {
+    width: 500px;
+  }
+  #catch-phrase {
+    font-size: 20px;
+  }
+  #logo {
+    flex: 0 0 125px;
+  }
+  #box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  #content {
+    width: 300px;
+  }
+  #catch-phrase {
+    font-size: 15px;
+  }
+  #logo {
+    flex: 0 0 75px;
+  }
+  #box {
+    width: 140%;
+  }
+}
