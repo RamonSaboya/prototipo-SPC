@@ -142,6 +142,28 @@ div {
     background-size: 100% 1.2em;
 }
 
+.scrollable-area {
+  order: 2;
+  flex: 1;
+
+  overflow-y: scroll;
+  background-color: #fff;
+
+  text-align: center;
+}
+
+.scrollable-area ul {
+  padding: 0px;
+}
+
+.scrollable-area li {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: thin solid black;
+  list-style-type: none;
+  font-size: 20px;
+}
+
 .hotel-picture {
     order: 1;
     flex: 0 0 200px;
@@ -183,6 +205,8 @@ div {
 .hotel-data {
   order: 3;
   flex: 0 0 auto;
+
+  padding: 5px;
 
   display: flex;
   flex-flow: row nowrap;
