@@ -1,22 +1,26 @@
 body {
     position: absolute;
-    
+
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    
+
     height: 100%;
     width: 100%;
-    
+
     padding: 0;
     border: 0;
     margin: 0;
-    
+
     background-color: #ddd;
-    
+
     display: flex;
     flex-flow: column nowrap;
+}
+
+input {
+  font-family: FontAwesome, Arial;
 }
 
 /*div {
@@ -26,7 +30,7 @@ body {
 #header {
     order: 1;
     flex: 0 0 auto;
-    
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
@@ -35,11 +39,11 @@ body {
 #content {
     order: 2;
     flex: 0 0 auto;
-    
+
     width: 800px;
     height: 400px;
     margin: auto;
-    
+
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -48,7 +52,7 @@ body {
 #user {
     order: 1;
     flex: 0 0 auto;
-    
+
     display: flex;
     flex-flow: row nowrap;
 }
@@ -56,16 +60,16 @@ body {
 .header-item {
     order: 1;
     flex: 0 0 auto;
-    
+
     width: 50px;
-    
+
     text-align: center;
 }
 
 #company {
     order: 1;
     flex: 1;
-    
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -75,7 +79,7 @@ body {
 #search {
     order: 2;
     flex: 1;
-    
+
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -84,7 +88,7 @@ body {
 #logo {
     order: 1;
     flex: 0 0 175px;
-    
+
     padding: 0 20px 10px 20px;
 }
 
@@ -104,18 +108,32 @@ body {
 #box {
     order: 1;
     flex: 0 0 auto;
-    
-    width: 600px;
-    height: 40px;
-    
-    margin-top: 10px;
 
-    border: 1px solid black;
-    border-radius: 10px;
-    
-    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 80%;
 }
 
+.searchbar {
+  display: flex;
+  height: 40px;
+}
+
+.searchbar input {
+  font-size: 100%;
+  width: 100%;
+  padding-left: 8px;
+}
+
+#how {
+  width: 65%;
+}
+
+#where {
+  width: 35%;
+}
 
 img {
     width: 100%;
