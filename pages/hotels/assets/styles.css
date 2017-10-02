@@ -1,0 +1,185 @@
+body {
+    position: absolute;
+    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    height: 100%;
+    width: 100%;
+    
+    padding: 0;
+    border: 0;
+    margin: 0;
+    
+    background-color: #ddd;
+    
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+div {
+    outline: 1px solid black;
+}
+
+#header {
+    order: 1;
+    flex: 0 0 auto;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+#content {
+    order: 2;
+    flex: 1;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#user {
+    order: 1;
+    flex: 0 0 auto;
+    
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.header-item {
+    order: 1;
+    flex: 0 0 auto;
+    
+    width: 50px;
+    
+    text-align: center;
+}
+
+#filters {
+    order: 1;
+    flex: 1;
+    
+    min-width: 100px;
+    
+    padding: 25px 25px;
+    
+    direction: rtl;
+    overflow-y: scroll;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#list {
+    order: 2;
+    flex: 0 0 70%;
+    
+    padding: 25px 50px;
+    
+    overflow-y: scroll;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.filter {
+    order: 1;
+    flex: 0 0 100px;
+    
+    min-width: 200px;
+    height: 200px;
+    
+    margin-bottom: 20px;
+    
+    direction: ltr;
+}
+
+.hotel {
+    order: 1;
+    flex: 0 0 auto;
+
+    min-width: 500px;
+    height: 175px;
+    
+    margin-bottom: 20px;
+    
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.hotel:last-child {
+    margin-bottom: 0;
+}
+
+.hotel-info {
+    order: 1;
+    flex: 1;
+    
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.hotel-feedback {
+    order: 2;
+    flex: 1;
+}
+
+.hotel-picture {
+    order: 1;
+    flex: 0 0 200px;
+    
+    overflow: hidden;
+}
+
+.hotel-detail {
+    order: 2;
+    flex: 1;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.hotel-name {
+    order: 1;
+    flex: 0 0 auto;
+    
+    text-align: center;
+    
+    padding: 5px 0;
+}
+
+.hotel-fields {
+    order: 2;
+    flex: 1;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hotel-field {
+    order: 1;
+    flex: 1;
+    
+    min-width: 175px;
+    
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#user img {
+    width: 50%;
+    height: auto;
+}
