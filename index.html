@@ -2,9 +2,13 @@
 <html lang="en-us">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<title>Blublu hotels</title>
 	<link rel="stylesheet" text="text/css" href="pages/index/assets/styles.css" charset="utf-8"/>
 	<link rel="stylesheet" text="text/css" href="global-assets/webfonts/stylesheet.css" charset="utf-8"/>
+	<link rel="stylesheet" href="./assets/font-awesome-4.7.0/css/font-awesome.min.css">
+  <script src="./assets/jquery-3.2.1.min.js"></script>
+  <script src="./js/animations.js"></script>
 </head>
 
 <body>
@@ -29,7 +33,17 @@
 		</div>
 		<div id="search">
 			<div id="box">
+				<div class="searchbar" id="how">
+			    <input onfocus="focusFunction('how')" id="how-input" type="text" placeholder="&#xf002 Tell me your ideal hotel"></input>
+			  </div>
+			  <div class="searchbar" id="where">
+			    <input onfocus="focusFunction('where')" id="where-input" type="text" placeholder="&#xf041 Where?"></input>
+			  </div>
+			</div>
+			<div id="button">
+				<a href="./pages/hotels/hotels.html"><button id="search-button">Go for it!</button></a>
 			</div>
 		</div>
 	</div>
+</body>
 </html>
