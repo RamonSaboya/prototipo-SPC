@@ -154,13 +154,10 @@ body {
   padding: 10px 0;
   list-style-type: none;
   font-size: 17px;
-<<<<<<< HEAD
 }
 
 .scrollable-area li:last-child {
   font-size: 14px;
-=======
->>>>>>> 77ca03e23c500bcb3e08b952a7f6de39c85b8f2a
 }
 
 .hotel-picture {
