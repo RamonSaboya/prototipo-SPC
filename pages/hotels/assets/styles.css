@@ -245,3 +245,61 @@ img {
     width: 50%;
     height: auto;
 }
+
+@media (max-width: 1150px) {
+    #content {
+        width: 800px;
+    }
+    .scrollable-area li {
+        font-size: 15px;
+    }
+    .hotel {
+        height: 200px;
+    }
+    .scrollable-area {
+        height: 70px;
+    }
+}
+
+@media (max-width: 850px) {
+    #content {
+        width: 500px;
+    }
+    .scrollable-area li {
+        font-size: 13px;
+    }
+    .hotel {
+        height: 200px;
+    }
+    .scrollable-area {
+        height: 70px;
+    }
+    div {
+        font-size: 97%;
+    }
+}
+
+@media (max-width: 650px) {
+    #content {
+        width: 300px;
+    }
+    .hotel-fields {
+        display: none;
+    }
+    .scrollable-area li {
+        font-size: 13px;
+    }
+    .hotel {
+        height: 150px;
+        min-width: 300px;
+    }
+    .hotel-picture {
+        flex: 0 0 100px;
+    }
+    .scrollable-area {
+        height: 70px;
+    }
+    div {
+        font-size: 97%;
+    }
+}
