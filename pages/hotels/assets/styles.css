@@ -19,9 +19,9 @@ body {
     flex-flow: column nowrap;
 }
 
-div {
+/*div {
     outline: 1px solid black;
-}
+}*/
 
 #header {
     order: 1;
@@ -133,21 +133,15 @@ div {
     flex-flow: row nowrap;
 }
 
-.hotel-feedback {
-    order: 2;
-    flex: 1;
-
-    background-color: #fff;
-    background-image: linear-gradient(#eee .1em, transparent .1em);
-    background-size: 100% 1.2em;
-}
-
 .scrollable-area {
   order: 2;
   flex: 1;
 
   overflow-y: scroll;
+
   background-color: #fff;
+  background-image: linear-gradient(#eed .1em, transparent .1em);
+  background-size: 100% 1.2em;
 
   text-align: center;
 }
@@ -157,11 +151,16 @@ div {
 }
 
 .scrollable-area li {
-  padding-bottom: 15px;
-  padding-top: 15px;
-  border-bottom: thin solid black;
+  padding: 10px 0;
   list-style-type: none;
   font-size: 17px;
+<<<<<<< HEAD
+}
+
+.scrollable-area li:last-child {
+  font-size: 14px;
+=======
+>>>>>>> 77ca03e23c500bcb3e08b952a7f6de39c85b8f2a
 }
 
 .hotel-picture {
