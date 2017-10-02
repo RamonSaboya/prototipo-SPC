@@ -19,9 +19,9 @@ body {
     flex-flow: column nowrap;
 }
 
-div {
+/*div {
     outline: 1px solid black;
-}
+}*/
 
 #header {
     order: 1;
@@ -67,6 +67,8 @@ div {
   order: 1;
   flex: 0 0 auto;
 
+  margin-bottom: 10px;
+
   text-align: center;
   font-size: 25px;
 }
@@ -93,7 +95,7 @@ div {
   order: 3;
   flex: 0 0 auto;
 
-  margin-top: 30px;
+  margin: 30px 0;
 
   display: flex;
   flex-flow: column nowrap;
@@ -141,8 +143,19 @@ div {
   order: 1;
   flex: 0 0 auto;
 
+  margin-bottom: 10px;
+
+  border: 2px solid #ccc;
+  border-radius: 5px;
+
+  box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.75);
+
   display: flex;
   flex-flow: row nowrap;
+}
+
+.comment:last-child {
+  margin-bottom: 0;
 }
 
 .comment-profile {
@@ -150,6 +163,8 @@ div {
   flex: 0 0 auto;
 
   padding: 5px;
+
+  border-right: 1px solid #ddd;
 
   display: flex;
   flex-flow: column nowrap;
@@ -173,6 +188,8 @@ div {
 }
 
 .comment-profile-item:last-child {
+  margin-top: 20px;
+
   font-size: 12px;
 }
 
@@ -181,6 +198,7 @@ div {
   flex: 0 0 auto;
 
   padding: 5px;
+  padding-left: 10px;
 
   font-size: 20px;
 }
