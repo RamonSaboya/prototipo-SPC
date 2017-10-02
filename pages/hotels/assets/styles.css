@@ -19,9 +19,9 @@ body {
     flex-flow: column nowrap;
 }
 
-/*div {
+div {
     outline: 1px solid black;
-}*/
+}
 
 #header {
     order: 1;
@@ -109,7 +109,7 @@ body {
     flex: 0 0 auto;
 
     min-width: 500px;
-    height: 175px;
+    height: 260px;
 
     margin-bottom: 20px;
 
@@ -202,6 +202,17 @@ body {
     align-items: center;
 }
 
+.hotel-data {
+  order: 3;
+  flex: 0 0 auto;
+
+  padding: 5px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
 .hotel-field {
     order: 1;
     flex: 1;
@@ -211,6 +222,16 @@ body {
     padding: 5px;
 
     text-align: center;
+}
+
+.hotel-review {
+  order: 1;
+  flex: 0 0 auto;
+}
+
+.hotel-match {
+  order: 2;
+  flex: 0 0 auto;
 }
 
 img {
